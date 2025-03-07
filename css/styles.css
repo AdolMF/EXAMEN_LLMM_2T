@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Street";
+    src: url(../fonts/street.ttf);
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Street';
+    margin: auto;
+    text-align: center;
+    color: crimson;
+    font-size: 46px;
+}
+
+h2 {
+    font-family: 'Street';
+    margin: auto;
+    text-align: center;
+    color: crimson;
+    font-size: 28px;
+}
+
+table {
+    margin: auto;
+    width: 600px;
+    height: 800px;
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgb(237,175,5);
+    background-color: black;
+}
+
+tr {
+    height: 45px;
+}
+
+td {
+    width: 40px;
+    font-family: 'Street';
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color:darkorange;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    height: 1100px;
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgb(237,175,5);
+    background-color: black;
+    color:white;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+legend {
+    font-size: 14px;
+    font-family: 'Street';
+    color: rgb(237,175,5);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 560px;
+
+}
+
+.mainBackground {
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.cabeceraTabla {
+    font-family: 'Street';
+    text-align: center;
+    background-image: url(../img/fondocabecera.jpg);
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 0%;
+}
+
+.cabeceraTablaOpacidad {
+    background-color: rgb(0,0,0,0.9);
+}
